@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GamingEvent"
+    android:background="@drawable/bg">
+
+    <ScrollView
+        android:id="@+id/GscrollView1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TableLayout
+            android:id="@+id/Gtable1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TableRow
+                android:id="@+id/Gtablerow1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top">
+
+                <Button
+                    android:id="@+id/GButton1"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="146dp"
+                    android:layout_height="159dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/gaming_csgo"
+                    android:onClick="reg"
+                    android:textColorHighlight="@color/colorAccent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.074"
+                    app:layout_constraintStart_toStartOf="@+id/GscrollView1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.047" />
+
+                <TextView
+                    android:id="@+id/GtextView1"
+                    style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+                    android:layout_width="155dp"
+                    android:layout_height="115dp"
+                    android:layout_gravity="top"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:text="CS:GO\nPrice : 500₹\n1st Prize : 10000₹"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.764"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.095" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/Gtablerow2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/GButton2"
+                    android:layout_width="158dp"
+                    android:layout_height="152dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/gaming_dota"
+                    android:onClick="reg"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.86"
+                    app:layout_constraintStart_toStartOf="@+id/GscrollView1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.049" />
+
+                <TextView
+                    android:id="@+id/GtextView2"
+                    style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+                    android:layout_width="197dp"
+                    android:layout_height="117dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:text="DOTA\nPrice : 500₹\n1st Prize : 10000₹"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.73"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.344" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/Gtablerow3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/GButton3"
+                    android:layout_width="158dp"
+                    android:layout_height="152dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/gaming_fifa"
+                    android:onClick="reg"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.074"
+                    app:layout_constraintStart_toStartOf="@+id/GscrollView1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.46" />
+
+                <TextView
+                    android:id="@+id/GtextView3"
+                    style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:text="FIFA 19\nPrice : 150₹\n1st Prize : 3000₹"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.758"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.575" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/Gtablerow4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/GButton4"
+                    android:layout_width="158dp"
+                    android:layout_height="152dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/gaming_ludo"
+                    android:onClick="reg"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.86"
+                    app:layout_constraintStart_toStartOf="@+id/GscrollView1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.46" />
+
+                <TextView
+                    android:id="@+id/GtextView4"
+                    style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:text="Ludo King\nPrice : 100₹\n1st Prize : 2000₹"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.811"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.837" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/Gtablerow5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/GButton5"
+                    android:layout_width="158dp"
+                    android:layout_height="152dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/gaming_pubg"
+                    android:onClick="reg"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.074"
+                    app:layout_constraintStart_toStartOf="@+id/GscrollView1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.87" />
+
+                <TextView
+                    android:id="@+id/GtextView5"
+                    style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:text="PUBG\nPrice : 200₹\n1st Prize : 3000₹"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.966" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

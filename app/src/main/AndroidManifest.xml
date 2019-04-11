@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.choudhary.yogeshc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".social"
+            android:theme="@style/Normal"></activity>
+
+        <activity android:name=".Events" />
+        <activity android:name=".GamingEvent" />
+        <activity android:name=".TechnicalWorkshops" />
+        <activity android:name=".Sports" />
+        <activity android:name=".Management" />
+        <activity android:name=".Informals" />
+        <activity android:name=".FineArts" />
+
+        <activity android:name=".day5"
+            android:label="@string/trd_page"
+            android:theme="@style/Normal2"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name=".day4" android:label="@string/trd_page"
+            android:theme="@style/Normal2"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name=".day3"
+            android:label="@string/trd_page"
+            android:theme="@style/Normal2"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name=".day2"
+            android:label="@string/trd_page"
+            android:theme="@style/Normal2"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name=".day1"
+            android:label="@string/trd_page"
+            android:theme="@style/Normal2"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name=".schdm"
+            android:label="@string/trd_page"
+            android:theme="@style/Normal2" />
+        <activity
+            android:name=".database"
+            android:label="@string/dtbs"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/Normal2" />
+        <activity
+            android:name=".login_pg"
+            android:label="@string/trd_page"
+            android:theme="@style/Normal2" />
+        <activity
+            android:name=".registration_pg"
+            android:label="@string/login_pg"
+            android:theme="@style/Normal2" />
+        <activity
+            android:name=".home"
+            android:label="@string/sec_page"
+            android:theme="@style/Normal" />
+        <activity android:name=".start_pg">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Alegriasite"
+            android:theme="@style/Normal"/>
+        <activity android:name=".Facebook"
+            android:theme="@style/Normal" />
+        <activity android:name=".Instagram"
+            android:theme="@style/Normal"/>
+        <activity android:name=".Twitter"
+            android:theme="@style/Normal"/>
+        <activity android:name=".Youtube"
+            android:theme="@style/Normal"/>
+    </application>
+
+</manifest>

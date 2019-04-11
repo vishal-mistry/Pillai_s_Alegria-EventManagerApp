@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Alegria</string>
+    <string name="stButton">Start</string>
+    <string name="sec_page">Home</string>
+    <string name="login_pg">Login</string>
+    <string name="trd_page">Registration Form</string>
+    <string name="start_text">Get Event Details, Schedule and Registration info.</string>
+
+    <string name="name">Enter Your Full Name</string>
+    <string name="number">Enter Your Mobile Number</string>
+    <string name="email">Enter Your Email address</string>
+    <string name="form_register">Register</string>
+    <string name="form_title">Registration Form</string>
+    <string name="login_title">Login</string>
+    <string name="id">Enter Your LoginID</string>
+    <string name="pass">Enter Your Password</string>
+    <string name="dtbs">Spreadsheet View</string>
+
+    <string name="management">Management</string>
+    <string name="register">REGISTER</string>
+    <string name="fine_arts">Fine Arts</string>
+    <string name="gaming">Gaming</string>
+    <string name="informals">Informals</string>
+    <string name="literary_arts">Literary Arts</string>
+    <string name="sports">Sports</string>
+    <string name="tech_workshops">Tech Workshops</string>
+    <string name="workshops">Workshops</string>
+    <string name="performing_arts">Performing Arts</string>
+
+
+</resources>

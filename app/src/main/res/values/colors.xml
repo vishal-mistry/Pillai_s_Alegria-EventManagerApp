@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#558B2F</color>
+    <color name="grey1">#212121</color>
+    <color name="grey2">#212121</color>
+
+    <color name="form_c1">#CCFFFFFF</color>
+    <color name="form_c2">#10ffffff</color>
+    <color name="form_c3">#30ffffff</color>
+    <color name="form_c4">#66ffffff</color>
+
+
+</resources>
